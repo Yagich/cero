@@ -20,14 +20,20 @@ _global_script_classes=[ {
 "path": "res://assets/scenes/resources/Card.gd"
 }, {
 "base": "Resource",
-"class": "Deck",
+"class": "AA_Deck",
 "language": "GDScript",
 "path": "res://assets/scenes/resources/Deck.gd"
+}, {
+"base": "Reference",
+"class": "CustomClassChecker",
+"language": "GDScript",
+"path": "res://assets/scenes/util/CustomClassChecker.gd"
 } ]
 _global_script_class_icons={
 "AA_ActionCard": "",
 "AA_Card": "",
-"Deck": ""
+"AA_Deck": "",
+"CustomClassChecker": ""
 }
 
 [application]
