@@ -1,6 +1,8 @@
 extends Resource
 
-class_name Deck
+class_name AA_Deck
+
+var CLASS_NAME_OVERRIDE = "AA_Deck"
 
 export(Array, Resource) var cards: Array
 
@@ -17,3 +19,9 @@ func add_card_array(cards_to_add: Array) -> Array:
 		else:
 			rejects.append(i)
 	return rejects
+
+func is_class(type: String) -> bool:
+	return type == CLASS_NAME_OVERRIDE || .is_class(type)
+
+func get_class() -> String:
+	return CLASS_NAME_OVERRIDE
