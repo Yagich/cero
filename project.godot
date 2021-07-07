@@ -8,6 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "AA_Card",
+"class": "AA_ActionCard",
+"language": "GDScript",
+"path": "res://assets/scenes/resources/ActionCard.gd"
+}, {
+"base": "Resource",
+"class": "AA_Card",
+"language": "GDScript",
+"path": "res://assets/scenes/resources/Card.gd"
+}, {
+"base": "Resource",
+"class": "Deck",
+"language": "GDScript",
+"path": "res://assets/scenes/resources/Deck.gd"
+} ]
+_global_script_class_icons={
+"AA_ActionCard": "",
+"AA_Card": "",
+"Deck": ""
+}
+
 [application]
 
 config/name="cero-client"
