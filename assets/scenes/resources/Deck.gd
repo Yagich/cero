@@ -20,3 +20,6 @@ func add_card_array(cards_to_add: Array) -> Array:
 		else:
 			rejects.append(i)
 	return rejects
+
+func size() -> int:
+	return cards.size()
