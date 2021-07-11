@@ -23,3 +23,6 @@ func add_card_array(cards_to_add: Array) -> Array:
 
 func size() -> int:
 	return cards.size()
+
+func get_cards() -> Array:
+	return cards
