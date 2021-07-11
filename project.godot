@@ -23,17 +23,11 @@ _global_script_classes=[ {
 "class": "AA_Deck",
 "language": "GDScript",
 "path": "res://assets/scenes/resources/Deck.gd"
-}, {
-"base": "Reference",
-"class": "CustomClassChecker",
-"language": "GDScript",
-"path": "res://assets/scenes/util/CustomClassChecker.gd"
 } ]
 _global_script_class_icons={
 "AA_ActionCard": "",
 "AA_Card": "",
-"AA_Deck": "",
-"CustomClassChecker": ""
+"AA_Deck": ""
 }
 
 [application]

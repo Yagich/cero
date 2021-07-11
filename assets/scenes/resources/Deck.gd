@@ -14,7 +14,7 @@ func add_card(card: AA_Card) -> void:
 func add_card_array(cards_to_add: Array) -> Array:
 	var rejects: Array = []
 	for i in cards_to_add:
-		if i.is_class("AA_Card"):
+		if i is AA_Card:
 			cards.append(i)
 		else:
 			rejects.append(i)
